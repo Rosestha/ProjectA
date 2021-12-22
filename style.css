@@ -1,11 +1,84 @@
+
 *{
     margin: 0%;
     padding: 0%;
 }
-.banner{
-    background-color: aqua;
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-.img{
+.navbar{
+    width: 100%;
+    align-items: center;
+    display: flex;
+
+}
+.logo{
     width: 50px;
-    height: 20px;
+    cursor: pointer;
+    margin: 30px 0;
 }
+.menus{
+    width: 25px;
+    cursor: pointer;
+}
+nav {
+    flex:1;
+    
+
+}
+.mob{
+    margin: 10px;
+    padding: 20px;
+    height: 25vh;
+
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+    
+}
+.Fack{
+    
+    background-color: slateblue;   
+    text-align: center;
+    width: 120px;
+    
+}
+.face{
+   height: 100px;
+   width: 100px;
+    
+    background-color: brown;
+    
+  
+}
+.fbname{
+   
+   text-align: center;
+    background-color: azure;
+    width: 120px;
+    font-size: 24px;
+    font-weight: bold;
+    
+   
+}
+.cash{
+   margin-top: 5px;
+   margin-bottom: 5px;
+    background-color: red;
+    width: 120px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
